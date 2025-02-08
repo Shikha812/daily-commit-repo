@@ -19,7 +19,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --global user.name "Shikha812"
-          git config --global user.email "23ds2000134@ds.study.iitm.ac.in."
+          git config --global user.email "23ds2000134@ds.study.iitm.ac.in"  # Use your student email here
           git add daily_commit.txt
           git commit -m "Daily commit"
           git push
